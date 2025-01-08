@@ -1,10 +1,10 @@
 # EstagioDocs
-Documentação do estagio
+Internship documentation
 ------------------------------------------------------------------------------------------
 
 Objective
 ------------------------------------------------------------------------------------------
-### Criar uma aplicação que permita o acompanhamento do progresso do aluno/estudante no processo de aprendizagem.
+### Create an application to monitor the student's progress in the learning process.
 
 ------------------------------------------------------------------------------------------
 
@@ -273,10 +273,11 @@ Generic Statistics and their possible implementations for Student Progression
 
 Important information to ask the professor/advisor:
 ------------------------------------------------------------------------------------------
-
+in progress..
 
 
 important information to ask the student:
 ------------------------------------------------------------------------------------------
 
 1. Does the student like the topic of the project or work requested by the professor/advisor. (Yes / No / Don't know)
+in progress..
