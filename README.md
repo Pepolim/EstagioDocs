@@ -29,13 +29,3 @@ The aim of the project is to develop a platform that collects and organizes info
     - Gamification system with scores and visual rewards (medals).
     - Introduce sentiment analysis to identify the emotional state of trainees and tutors.
 4. **Platform development** (future fases).
-
-
-Important information to ask the professor/advisor:
-------------------------------------------------------------------------------------------
-in progress..
-
-
-important information to ask the student:
-------------------------------------------------------------------------------------------
-in progress..

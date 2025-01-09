@@ -1,6 +1,18 @@
 # Ficha de Avaliação FPIF (NETFORCE IEFP) 
+
 ## Ficha de Observação dos participantes por Módulo
 ![OP](/assets/Netforce%20iefp/observacao_participantes_modulo.PNG)
+
+### Perguntas (pontuação de 1 a 5)
+
+- **Domínio dos Assuntos**: Aplica os conhecimentos adquiridos em exercícios ou casos concretos
+- **Criatividade e autonomia**: Demonstra capacidade de análise dos temas e situações, autonomia na pesquisa de informação e criatividade na abordagem dos assuntos.
+- **Generalização dos Saberes**: Transfere ou generaliza os saberes adquiridos a novas situações
+- **Participação**: Mostra interesse e intervém a propósito, colaborando na dinamização das atividades formativas
+- **Responsabilidade**: Demonstra sentido de responsabilidade na frequência da ação, em termos de cumprimento dos tempos e das atividades propostas
+- **Relações Interpessoais**: Comunica com os colegas, formadores e outros, demonstrando tolerância e espírito de equipa
+
+
 ## Ficha de Apreciação do Plano de sessão da Simulação Pedagagica incial
 ![CP1 Inicial](/assets/Netforce%20iefp/CP1_Inicial.PNG)
 ## Ficha de Apreciação dos Recursos Didaticos aplicado na Simulação Pedagagica incial
