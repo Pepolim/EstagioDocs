@@ -179,7 +179,7 @@ Se sim, abrir próximas perguntas
   - Tipo: Boolean (Sim/Não)
   - Variável: necessidade_orientacao
 
-## Gestão de Tempo
+### Gestão de Tempo
 - **Pergunta:** Houve interrupções externas que comprometeram o andamento das tarefas?
   - Tipo: Boolean (Sim/Não) + Campo de texto para especificar.
   - Variável: interrupcoes_externas
