@@ -17,10 +17,13 @@
 - **Pergunta 4**: Qual foi o grau de complexidade das tarefas realizadas hoje?  
   Tipo: Escala de Likert (1 = Muito fácil, 5 = Muito difícil)  
   Variável: complexidade_tarefas
-
-- **Pergunta 5**: Atingiu todas as metas estabelecidas para o dia?  
+---
+Pergunta redundante, retirar
+- ~~**Pergunta 5**: Atingiu todas as metas estabelecidas para o dia?~~  
   Tipo: Boolean (Sim/Não)  
   Variável: metas_atingidas
+---
+
 
 - **Pergunta 6**: Quais habilidades técnicas utilizou hoje?  
   Tipo: Checklist (C#, Python, JavaScript, SQL, React, Angular, Django, PowerBI, Tableau, Docker, Git, Jira, Outro)  
@@ -34,7 +37,6 @@
   Tipo: Checklist (C#, Python, JavaScript, SQL, React, Angular, Django, PowerBI, Tableau, Docker, Git, Jira, Outro)  
   Variável: habilidades_tec_melhorar
 
-  
 
 ## Habilidades Comportamentais
 - **Pergunta 9**: Quais habilidades comportamentais aplicou mais hoje?  
@@ -49,7 +51,10 @@
   Tipo: Checklist (Comunicação, Resolução de problemas, Trabalho em equipa, Adaptabilidade, Gestão de Tempo)  
   Variável: habilidades_comportamentais_melhorar
 
-### Comunicação
+## Comunicação
+
+#### **Incluir primeira pergunda: "Trabalha em equipa?" Se sim, abrir próximas 2 perguntas -->**
+
 - **Pergunta 12**: Comunicou-se com a equipa durante o dia?  
   Tipo: Boolean (Sim/Não)  
   Variável: comunicacao_equipa
@@ -57,16 +62,22 @@
 - **Pergunta 13**: Se sim, qual foi a frequência das suas interações?  
   Tipo: Checklist (Nenhuma interação, Poucas interações, Interações moderadas, Muitas interações)  
   Variável: frequencia_comunicacao
+---
+Dividir em duas perguntas 
+- ~~**Pergunta 14**: A comunicação com a equipa/tutor foi clara e eficiente?~~ 
 
-- **Pergunta 14**: A comunicação com a equipa/tutor foi clara e eficiente?  
   Tipo: Boolean (Sim/Não)  
   Variável: qualidade_comunicacao
-
-- **Pergunta 15**: O que motivou a comunicação com a equipa/tutor?  
+  
+Variantes:
+- **Pergunta 14 A**: A comunicação com a equipa foi clara e eficiente?
+- **Pergunta 14 B**: A comunicação com a tutor foi clara e eficiente?
+---
+- **Pergunta 15**: O que motivou a comunicação?  
   Tipo: Checklist (Tirar dúvidas, Reportar bug, Solicitar feedback, Ajudar a equipa, Outros)  
   Variável: motivo_comunicacao
 
-### Autonomia
+## Autonomia
 - **Pergunta 16**: Fez alguma pesquisa autónoma para resolver algum problema ou tarefa?  
   Tipo: Boolean (Sim/Não)  
   Variável: pesquisa_autonoma
@@ -74,16 +85,25 @@
 - **Pergunta 17**: Se sim, qual foi o tema da pesquisa?  
   Tipo: Campo de texto  
   Variável: tema_pesquisa_autonoma
+---
+Pergunta redundante, retirar
 
-- **Pergunta 18**: Tirou dúvidas com o tutor ou com alguém da equipa hoje?  
+- ~~**Pergunta 18**: Tirou dúvidas com o tutor ou com alguém da equipa hoje?~~ 
+
   Tipo: Boolean (Sim/Não)  
   Variável: tirar_duvidas
-
+  
+---
 - **Pergunta 19**: Se sim, sobre qual tema ou tarefa tirou dúvidas?  
   Tipo: Campo de texto  
   Variável: tema_tirou_duvidas
 
-- **Pergunta 20**: Quantas decisões tomou sem precisar consultar o tutor ou equipa?  
+
+---
+#### Incluir pergunta para perceber se pergunta foi esclarecida
+---
+
+- **Pergunta 20**: Quantas decisões importantes tomou sem precisar consultar o tutor ou equipa?  
   Tipo: Campo numérico  
   Variável: decisoes_autonomas
 
@@ -110,6 +130,10 @@
 
 # Questões Tutor
 
+#### **Incluir primeira pergunda: "Comunicou-se com o estagiário hoje?"**
+Se sim, abrir próximas perguntas 
+
+---
 - **Pergunta 1**: O estagiário cumpriu as metas e expectativas estabelecidas para o dia?  
   Tipo: Boolean (Sim/Não)  
   Variável: cumprimento_de_expectativas
@@ -127,13 +151,16 @@
   Variável: evolucao_habilidades_comunic_tutor
 
 - **Pergunta 5**: O estagiário demonstrou evolução de autonomia?  
-  Tipo: Escala de Likert (1 = Sem evolução, 5 = Evolução excepcional)   
+  Tipo: Escala de Likert (1 = Sem evolução, 5 = Evolução excepcional) #nao foi possivel availiar  
   Variável: evolucao_habilidades_autonomia_tutor
 
 - **Pergunta 6**: O estagiário demonstrou proatividade e interesse em aprender?  
   Tipo: Boolean (Sim/Não)  
   Variável: proatividade_interesse_tutor
 
+---
+#### **Peridiocidade semanal**
 - **Pergunta 7**: O estagiário demonstrou evolução no desempenho em comparação com dias anteriores?  
   Tipo: Boolean (Sim/Não)  
   Variável: evolucao_desempenho_tutor
+---
