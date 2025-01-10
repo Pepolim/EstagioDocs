@@ -20,7 +20,7 @@
   Tipo: Escala de Likert (1 = Muito fácil, 5 = Muito difícil)  
   Variável: complexidade_tarefas
 ---
-<span style="color:red">Pergunta redundante, retirar
+<span style="color:red">Pergunta redundante, retirar (CRITICA)
 - ~~**Pergunta 5**: Atingiu todas as metas estabelecidas para o dia?~~  
   Tipo: Boolean (Sim/Não)  
   Variável: metas_atingidas
@@ -41,33 +41,37 @@
 
 
 ## Habilidades Comportamentais
-- **Pergunta 9**: Quais habilidades comportamentais aplicou mais hoje?  
+- <span style="color:yellow">**Pergunta 9**: Quais habilidades comportamentais aplicou mais hoje? (CRITICA David, Pouca prioridade)
+
   Tipo: Checklist (Comunicação, Resolução de problemas, Trabalho em equipa, Adaptabilidade, Gestão de Tempo)  
   Variável: habilidades_comportamentais_uso
 
-- **Pergunta 10**: Qual habilidade comportamental considera que mais desenvolveu hoje?  
+- <span style="color:yellow">**Pergunta 10**: Qual habilidade comportamental considera que mais desenvolveu hoje?(CRITICA David, Pouca prioridade)
+
   Tipo: Checklist (Comunicação, Resolução de problemas, Trabalho em equipa, Adaptabilidade, Gestão de Tempo)  
   Variável: habilidades_comportamentais_desenvolvidas
 
-- **Pergunta 11**: Quais habilidades comportamentais considera que precisa melhorar?  
+- **Pergunta 11**: Quais habilidades comportamentais considera que precisa melhorar? 
+
   Tipo: Checklist (Comunicação, Resolução de problemas, Trabalho em equipa, Adaptabilidade, Gestão de Tempo)  
   Variável: habilidades_comportamentais_melhorar
 
 ### Comunicação
 
-<span style="color:yellow">#### **Incluir primeira pergunda: "Trabalha em equipa?" Se sim, abrir próximas 2 perguntas -->**
+<span style="color:yellow">#### **Incluir primeira pergunda: "Trabalha em equipa?" Se sim, abrir próximas 2 perguntas -->** (CRITICA)
 
-- **Pergunta 12**: Comunicou-se com a equipa durante o dia?  
-  Tipo: Boolean (Sim/Não)  
+- **Pergunta 12**: Comunicou-se com a equipa durante o dia?
+
+  Tipo: Boolean (Sim/Não)  (CRITICA David, Estimativa em horas)
   Variável: comunicacao_equipa
 
 - **Pergunta 13**: Se sim, qual foi a frequência das suas interações?  
   Tipo: Checklist (Nenhuma interação, Poucas interações, Interações moderadas, Muitas interações)  
   Variável: frequencia_comunicacao
 ---
-<span style="color:yellow">Dividir em duas perguntas 
+<span style="color:yellow">Dividir em duas perguntas (CRITICA)
 - ~~**Pergunta 14**: A comunicação com a equipa/tutor foi clara e eficiente?~~ 
-
+  (CRITICA David, devia de ser junto para anonymato do estudante)
   Tipo: Boolean (Sim/Não)  
   Variável: qualidade_comunicacao
   
@@ -79,7 +83,7 @@ Variantes:
   Tipo: Checklist (Tirar dúvidas, Reportar bug, Solicitar feedback, Ajudar a equipa, Outros)  
   Variável: motivo_comunicacao
 
-### Autonomia
+### <span style="color:red">Autonomia (CRITICA David, por so na parte do tutor por agora)
 - **Pergunta 16**: Fez alguma pesquisa autónoma para resolver algum problema ou tarefa?  
   Tipo: Boolean (Sim/Não)  
   Variável: pesquisa_autonoma
@@ -88,7 +92,7 @@ Variantes:
   Tipo: Campo de texto  
   Variável: tema_pesquisa_autonoma
 ---
-<span style="color:red">Pergunta redundante, retirar
+<span style="color:red">Pergunta redundante, retirar (CRITICA)
 
 - ~~**Pergunta 18**: Tirou dúvidas com o tutor ou com alguém da equipa hoje?~~ 
 
@@ -100,15 +104,16 @@ Variantes:
   Tipo: Campo de texto  
   Variável: tema_tirou_duvidas
 
-#### <span style="color:yellow">Incluir pergunta para perceber se pergunta foi esclarecida
+#### <span style="color:yellow">Incluir pergunta para perceber se pergunta foi esclarecida (CRITICA)
 ---
 
 - **Pergunta 20**: Quantas decisões importantes tomou sem precisar consultar o tutor ou equipa?  
   Tipo: Campo numérico  
   Variável: decisoes_autonomas
 
-## Autoavaliação e Satisfação
-- **Pergunta 21**: Como se sentiu em relação ao seu desempenho hoje?  
+## Autoavaliação e Satisfação 
+- <span style="color:green">**Pergunta 21**: Como se sentiu em relação ao seu desempenho hoje?  
+
   Tipo: Escala de Likert (1 = Muito insatisfeito, 5 = Muito satisfeito)  
   Variável: autoavaliacao_desempenho
 
@@ -130,7 +135,7 @@ Variantes:
 
 # Questões Tutor
 
-#### <span style="color:yellow">**Incluir primeira pergunda: "Comunicou-se com o estagiário hoje?"**
+#### <span style="color:yellow">**Incluir primeira pergunda: "Comunicou-se com o estagiário hoje?"** (CRITICA)
 Se sim, abrir próximas perguntas 
 
 ---
@@ -192,7 +197,7 @@ Se sim, abrir próximas perguntas
 ### Para Tutores
 
 ## Acompanhamento e Feedback
-- **Pergunta:** O estagiário demonstrou iniciativa para buscar feedback sobre o seu desempenho?
+- **Pergunta:** O estagiário demonstrou iniciativa para procurar feedback ~~sobre o seu desempenho~~?
   - Tipo: Boolean (Sim/Não)
   - Variável: procura_feedback
 
