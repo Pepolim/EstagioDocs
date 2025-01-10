@@ -53,7 +53,7 @@
   Tipo: Checklist (Comunicação, Resolução de problemas, Trabalho em equipa, Adaptabilidade, Gestão de Tempo)  
   Variável: habilidades_comportamentais_melhorar
 
-## Comunicação
+### Comunicação
 
 <span style="color:yellow">#### **Incluir primeira pergunda: "Trabalha em equipa?" Se sim, abrir próximas 2 perguntas -->**
 
@@ -79,7 +79,7 @@ Variantes:
   Tipo: Checklist (Tirar dúvidas, Reportar bug, Solicitar feedback, Ajudar a equipa, Outros)  
   Variável: motivo_comunicacao
 
-## Autonomia
+### Autonomia
 - **Pergunta 16**: Fez alguma pesquisa autónoma para resolver algum problema ou tarefa?  
   Tipo: Boolean (Sim/Não)  
   Variável: pesquisa_autonoma
@@ -165,4 +165,47 @@ Se sim, abrir próximas perguntas
   Variável: evolucao_desempenho_tutor
 ---
 
-# Perguntas adcionais minhas
+# <span style="color:green">Perguntas adcionais minhas
+
+### Para Estagiários
+## Habilidades Técnicas
+
+- **Pergunta:** As ferramentas e recursos disponíveis foram suficientes para realizar as tarefas?
+  - Tipo: Boolean (Sim/Não) + Campo de texto para detalhes (se "Não").
+  - Variável: recursos_suficientes
+
+## Autonomia
+- **Pergunta:** Em algum momento, sentiu que precisava de mais orientações para concluir suas tarefas?
+  - Tipo: Boolean (Sim/Não)
+  - Variável: necessidade_orientacao
+
+## Gestão de Tempo
+- **Pergunta:** Houve interrupções externas que comprometeram o andamento das tarefas?
+  - Tipo: Boolean (Sim/Não) + Campo de texto para especificar.
+  - Variável: interrupcoes_externas
+
+## Motivação e Bem-estar
+-**Pergunta:** Sentiu-se à vontade para pedir ajuda ou tirar dúvidas?
+  - Tipo: Escala de Likert (1 = Muito desconfortável, 5 = Muito confortável)
+  - Variável: conforto_ao_pedir_ajuda
+
+### Para Tutores
+
+## Acompanhamento e Feedback
+- **Pergunta:** O estagiário demonstrou iniciativa para buscar feedback sobre o seu desempenho?
+  - Tipo: Boolean (Sim/Não)
+  - Variável: procura_feedback
+
+- **Pergunta:** Foi possível identificar melhorias no estagiário em relação a um objetivo específico discutido previamente?
+  - Tipo: Boolean (Sim/Não) + Campo de texto para especificar o objetivo.
+  - Variável: melhorias_em_objetivos
+
+## Relação com a Equipa
+- **Pergunta:** O estagiário conseguiu interagir de forma construtiva com outros membros da equipa?
+  - Tipo: Escala de Likert (1 = Não interagiu, 5 = Interação excepcional)
+  - Variável: interacao_equipa
+
+## Desempenho Geral
+- **Pergunta:** O estagiário apresentou dificuldades recorrentes em alguma área?
+  - Tipo: Checklist (Técnica, Comunicação, Gestão de Tempo, Outro)
+  - Variável: dificuldades_recorrentes

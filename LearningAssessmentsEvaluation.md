@@ -1,5 +1,6 @@
-# Ficha de Avaliação FPIF (NETFORCE IEFP) 
+# Foco de perguntas feitas ao tutor sobre o estudante
 
+### Ficha de Avaliação FPIF (NETFORCE IEFP) 
 ## Ficha de Observação dos participantes por Módulo
 ![OP](/assets/Netforce%20iefp/observacao_participantes_modulo.PNG)
 
@@ -52,7 +53,7 @@
 1. DOMÍNIO DO ASSUNTO														
 1. COMUNICAÇÃO DOS OBJETIVOS														
 1. VERIFICAÇÃO DOS PRÉ-REQUISITOS														
-1. ADEQUAÇÃO DOS MÉTODOS E TÉCNICAS PEDAGÓGICAS (MTP)																										
+1. ADEQUAÇÃO DOS MÉTODOS E TÉCNICAS PEDAGÓGICAS (MTP)																							
 1. MOTIVAÇÃO														
 1. ATIVIDADES DOS PARTICIPANTES														
 1. FACILITAÇÃO DA ESTRUTURAÇÃO DO CONTEÚDO														
