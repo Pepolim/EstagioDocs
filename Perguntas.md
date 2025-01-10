@@ -1,3 +1,5 @@
+# Perguntas da Elisa + criticas minhas
+
 # Questões Estagiários
 
 ## Habilidades Técnicas
@@ -18,7 +20,7 @@
   Tipo: Escala de Likert (1 = Muito fácil, 5 = Muito difícil)  
   Variável: complexidade_tarefas
 ---
-Pergunta redundante, retirar
+<span style="color:red">Pergunta redundante, retirar
 - ~~**Pergunta 5**: Atingiu todas as metas estabelecidas para o dia?~~  
   Tipo: Boolean (Sim/Não)  
   Variável: metas_atingidas
@@ -53,7 +55,7 @@ Pergunta redundante, retirar
 
 ## Comunicação
 
-#### **Incluir primeira pergunda: "Trabalha em equipa?" Se sim, abrir próximas 2 perguntas -->**
+<span style="color:yellow">#### **Incluir primeira pergunda: "Trabalha em equipa?" Se sim, abrir próximas 2 perguntas -->**
 
 - **Pergunta 12**: Comunicou-se com a equipa durante o dia?  
   Tipo: Boolean (Sim/Não)  
@@ -63,7 +65,7 @@ Pergunta redundante, retirar
   Tipo: Checklist (Nenhuma interação, Poucas interações, Interações moderadas, Muitas interações)  
   Variável: frequencia_comunicacao
 ---
-Dividir em duas perguntas 
+<span style="color:yellow">Dividir em duas perguntas 
 - ~~**Pergunta 14**: A comunicação com a equipa/tutor foi clara e eficiente?~~ 
 
   Tipo: Boolean (Sim/Não)  
@@ -86,7 +88,7 @@ Variantes:
   Tipo: Campo de texto  
   Variável: tema_pesquisa_autonoma
 ---
-Pergunta redundante, retirar
+<span style="color:red">Pergunta redundante, retirar
 
 - ~~**Pergunta 18**: Tirou dúvidas com o tutor ou com alguém da equipa hoje?~~ 
 
@@ -98,9 +100,7 @@ Pergunta redundante, retirar
   Tipo: Campo de texto  
   Variável: tema_tirou_duvidas
 
-
----
-#### Incluir pergunta para perceber se pergunta foi esclarecida
+#### <span style="color:yellow">Incluir pergunta para perceber se pergunta foi esclarecida
 ---
 
 - **Pergunta 20**: Quantas decisões importantes tomou sem precisar consultar o tutor ou equipa?  
@@ -130,7 +130,7 @@ Pergunta redundante, retirar
 
 # Questões Tutor
 
-#### **Incluir primeira pergunda: "Comunicou-se com o estagiário hoje?"**
+#### <span style="color:yellow">**Incluir primeira pergunda: "Comunicou-se com o estagiário hoje?"**
 Se sim, abrir próximas perguntas 
 
 ---
@@ -164,3 +164,5 @@ Se sim, abrir próximas perguntas
   Tipo: Boolean (Sim/Não)  
   Variável: evolucao_desempenho_tutor
 ---
+
+# Perguntas adcionais minhas
