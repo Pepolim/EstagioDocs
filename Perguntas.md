@@ -60,7 +60,7 @@
 
 <span style="color:yellow">#### **Incluir primeira pergunda: "Trabalha em equipa?" Se sim, abrir próximas 2 perguntas -->** (CRITICA)
 
-- **Pergunta 12**: Comunicou-se com a equipa durante o dia?
+- **Pergunta 12**: ~~Comunicou-se com a equipa durante o dia?~~Quanto tempo gastou em comunicacao?
 
   Tipo: Boolean (Sim/Não)  (CRITICA David, Estimativa em horas)
   Variável: comunicacao_equipa
@@ -70,25 +70,26 @@
   Variável: frequencia_comunicacao
 ---
 <span style="color:yellow">Dividir em duas perguntas (CRITICA)
-- ~~**Pergunta 14**: A comunicação com a equipa/tutor foi clara e eficiente?~~ 
+- **Pergunta 14**: A comunicação com a equipa/tutor foi clara e eficiente?
   (CRITICA David, devia de ser junto para anonymato do estudante)
   Tipo: Boolean (Sim/Não)  
   Variável: qualidade_comunicacao
   
 Variantes:
-- **Pergunta 14 A**: A comunicação com a equipa foi clara e eficiente?
-- **Pergunta 14 B**: A comunicação com a tutor foi clara e eficiente?
+- ~~**Pergunta 14 A**: A comunicação com a equipa foi clara e eficiente?~~
+- ~~**Pergunta 14 B**: A comunicação com a tutor foi clara e eficiente?~~
 ---
 - **Pergunta 15**: O que motivou a comunicação?  
   Tipo: Checklist (Tirar dúvidas, Reportar bug, Solicitar feedback, Ajudar a equipa, Outros)  
   Variável: motivo_comunicacao
 
 ### <span style="color:red">Autonomia (CRITICA David, por so na parte do tutor por agora)
-- **Pergunta 16**: Fez alguma pesquisa autónoma para resolver algum problema ou tarefa?  
+
+- ~~**Pergunta 16**: Fez alguma pesquisa autónoma para resolver algum problema ou tarefa?~~ 
   Tipo: Boolean (Sim/Não)  
   Variável: pesquisa_autonoma
 
-- **Pergunta 17**: Se sim, qual foi o tema da pesquisa?  
+- ~~**Pergunta 17**: Se sim, qual foi o tema da pesquisa?~~  
   Tipo: Campo de texto  
   Variável: tema_pesquisa_autonoma
 ---
@@ -100,23 +101,27 @@ Variantes:
   Variável: tirar_duvidas
   
 ---
-- **Pergunta 19**: Se sim, sobre qual tema ou tarefa tirou dúvidas?  
-  Tipo: Campo de texto  
+- ~~**Pergunta 19**: Se sim, sobre qual tema ou tarefa tirou dúvidas?~~
+  
+   Tipo: Campo de texto  
   Variável: tema_tirou_duvidas
 
 #### <span style="color:yellow">Incluir pergunta para perceber se pergunta foi esclarecida (CRITICA)
 ---
 
-- **Pergunta 20**: Quantas decisões importantes tomou sem precisar consultar o tutor ou equipa?  
+- ~~**Pergunta 20**: Quantas decisões importantes tomou sem precisar consultar o tutor ou equipa?~~ 
   Tipo: Campo numérico  
   Variável: decisoes_autonomas
 
 ## Autoavaliação e Satisfação 
-- <span style="color:green">**Pergunta 21**: Como se sentiu em relação ao seu desempenho hoje?  
+- <span style="color:green">**Pergunta 21**: Como se sentiu em relação ao seu desempenho hoje?  (CRITICA David, gostou bastante desta pergunta)
 
   Tipo: Escala de Likert (1 = Muito insatisfeito, 5 = Muito satisfeito)  
   Variável: autoavaliacao_desempenho
 
+- <span style="color:green">**Pergunta 22**: Como se sentiu em relação ao seu desempenho hoje?  (CRITICA David, gostou bastante desta pergunta)
+
+CERTIFICAR SOBRE ESTAS PERGUNTAS
 - **Pergunta 22**: Sentiu-se motivado para concluir as atividades de hoje?  
   Tipo: Escala de Likert (1 = Muito desmotivado, 5 = Muito motivado)  
   Variável: motivacao
@@ -175,6 +180,8 @@ Se sim, abrir próximas perguntas
 ### Para Estagiários
 ## Habilidades Técnicas
 
+<span style="color:green">CRIAR PAGINA SO PARA FEEDBACK E INCLUIR ESTAS PERGUNTAS
+
 - **Pergunta:** As ferramentas e recursos disponíveis foram suficientes para realizar as tarefas?
   - Tipo: Boolean (Sim/Não) + Campo de texto para detalhes (se "Não").
   - Variável: recursos_suficientes
@@ -190,7 +197,7 @@ Se sim, abrir próximas perguntas
   - Variável: interrupcoes_externas
 
 ## Motivação e Bem-estar
--**Pergunta:** Sentiu-se à vontade para pedir ajuda ou tirar dúvidas?
+- **Pergunta:** Sentiu-se à vontade para pedir ajuda ou tirar dúvidas?
   - Tipo: Escala de Likert (1 = Muito desconfortável, 5 = Muito confortável)
   - Variável: conforto_ao_pedir_ajuda
 
@@ -205,8 +212,8 @@ Se sim, abrir próximas perguntas
   - Tipo: Boolean (Sim/Não) + Campo de texto para especificar o objetivo.
   - Variável: melhorias_em_objetivos
 
-## Relação com a Equipa
-- **Pergunta:** O estagiário conseguiu interagir de forma construtiva com outros membros da equipa?
+## Relação com a Equipa 
+- ~~**Pergunta:** O estagiário conseguiu interagir de forma construtiva com outros membros da equipa?~~
   - Tipo: Escala de Likert (1 = Não interagiu, 5 = Interação excepcional)
   - Variável: interacao_equipa
 
