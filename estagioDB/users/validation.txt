@@ -1,0 +1,44 @@
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    required: [
+      'name',
+      'role',
+      'password',
+      'email'
+    ],
+    properties: {
+      name: {
+        bsonType: 'string',
+        maxLength: 100,
+        description: 'Name of the user, required.'
+      },
+      role: {
+        bsonType: 'string',
+        'enum': [
+          'Intern',
+          'Tutor',
+          'Admin'
+        ],
+        description: 'Role of the user, must be one of the specified values.'
+      },
+      password: {
+        bsonType: 'string',
+        maxLength: 30,
+        description: 'Password of the user, required.'
+      },
+      email: {
+        bsonType: 'string',
+        maxLength: 100,
+        description: 'Email of the user, required.'
+      },
+      birthDate: {
+        bsonType: [
+          'date',
+          'null'
+        ],
+        description: 'Date of birth of the user, optional.'
+      }
+    }
+  }
+}

@@ -1,0 +1,189 @@
+[{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa0a"
+  },
+  "TypeQuestionnaire": "DiarioEstagiario",
+  "TextQuestion": "Quantas tarefas planeou concluir hoje?",
+  "Mandatory": false,
+  "Options": 1
+},
+{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa0b"
+  },
+  "TypeQuestionnaire": "DiarioEstagiario",
+  "TextQuestion": "Quantas tarefas conseguiu concluir hoje?",
+  "Mandatory": false,
+  "Options": 1
+},
+{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa0c"
+  },
+  "TypeQuestionnaire": "DiarioEstagiario",
+  "TextQuestion": "Houve interrupções externas que comprometeram o andamento das tarefas?",
+  "Mandatory": false,
+  "Options": 2
+},
+{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa0d"
+  },
+  "TypeQuestionnaire": "DiarioEstagiario",
+  "TextQuestion": "Qual interrupção?",
+  "Mandatory": false,
+  "Options": 4
+},
+{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa0e"
+  },
+  "TypeQuestionnaire": "DiarioEstagiario",
+  "TextQuestion": "O tempo que estimou para concluir as tarefas foi suficiente?",
+  "Mandatory": false,
+  "Options": 2
+},
+{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa0f"
+  },
+  "TypeQuestionnaire": "DiarioEstagiario",
+  "TextQuestion": "Se não, quanto mais tempo foi necessário?",
+  "Mandatory": false,
+  "Options": 5
+},
+{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa10"
+  },
+  "TypeQuestionnaire": "DiarioEstagiario",
+  "TextQuestion": "Qual foi o grau de complexidade das tarefas realizadas hoje?",
+  "Mandatory": false,
+  "Options": 3
+},
+{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa11"
+  },
+  "TypeQuestionnaire": "DiarioEstagiario",
+  "TextQuestion": "Quais habilidades técnicas utilizou hoje?",
+  "Mandatory": false,
+  "Options": 4
+},
+{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa12"
+  },
+  "TypeQuestionnaire": "DiarioEstagiario",
+  "TextQuestion": "Quais habilidades técnicas considera que desenvolveu mais hoje?",
+  "Mandatory": false,
+  "Options": 4
+},
+{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa13"
+  },
+  "TypeQuestionnaire": "DiarioEstagiario",
+  "TextQuestion": "Quais habilidades técnicas considera que precisa melhorar?",
+  "Mandatory": false,
+  "Options": 4
+},
+{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa14"
+  },
+  "TypeQuestionnaire": "DiarioEstagiario",
+  "TextQuestion": "Trabalha em equipa?",
+  "Mandatory": false,
+  "Options": 2
+},
+{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa15"
+  },
+  "TypeQuestionnaire": "DiarioEstagiario",
+  "TextQuestion": "Quanto tempo estima ter estado em comunicação com equipa/tutor?",
+  "Mandatory": false,
+  "Options": 5
+},
+{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa16"
+  },
+  "TypeQuestionnaire": "DiarioEstagiario",
+  "TextQuestion": "O que motivou a comunicação?",
+  "Mandatory": false,
+  "Options": 4
+},
+{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa17"
+  },
+  "TypeQuestionnaire": "DiarioEstagiario",
+  "TextQuestion": "A comunicação com a equipa/tutor foi clara e eficiente?",
+  "Mandatory": false,
+  "Options": 2
+},
+{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa18"
+  },
+  "TypeQuestionnaire": "DiarioEstagiario",
+  "TextQuestion": "Encontrou dificuldades para concluir suas atividades?",
+  "Mandatory": false,
+  "Options": 2
+},
+{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa19"
+  },
+  "TypeQuestionnaire": "DiarioEstagiario",
+  "TextQuestion": "Se sim, em quais áreas encontrou dificuldades?",
+  "Mandatory": false,
+  "Options": 4
+},
+{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa1a"
+  },
+  "TypeQuestionnaire": "DiarioEstagiario",
+  "TextQuestion": "Como se sentiu em relação ao seu desempenho hoje?",
+  "Mandatory": false,
+  "Options": 3
+},
+{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa1b"
+  },
+  "TypeQuestionnaire": "FeedbackEstagiario",
+  "TextQuestion": "As ferramentas e recursos disponíveis foram suficientes para realizar as tarefas?",
+  "Mandatory": true,
+  "Options": 2
+},
+{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa1c"
+  },
+  "TypeQuestionnaire": "FeedbackEstagiario",
+  "TextQuestion": "Em algum momento, sentiu que precisava de mais orientações para concluir suas tarefas?",
+  "Mandatory": true,
+  "Options": 2
+},
+{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa1d"
+  },
+  "TypeQuestionnaire": "FeedbackEstagiario",
+  "TextQuestion": "Sentiu-se à vontade para pedir ajuda ou tirar dúvidas?",
+  "Mandatory": true,
+  "Options": 3
+},
+{
+  "_id": {
+    "$oid": "678e5727317a32e9cf5daa1e"
+  },
+  "TypeQuestionnaire": "FeedbackEstagiario",
+  "TextQuestion": "Sentiu-se motivado para concluir as atividades de hoje?",
+  "Mandatory": true,
+  "Options": 3
+}]

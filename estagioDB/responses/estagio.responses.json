@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "6798d99ecb568d9309e09914"
+  },
+  "userID": {
+    "$oid": "67978ade1c9bb1f0f807260f"
+  },
+  "questionID": {
+    "$oid": "678e5727317a32e9cf5daa0a"
+  },
+  "responseText": "This is an example response.",
+  "responseDate": {
+    "$date": "2018-04-15T16:54:40.000Z"
+  },
+  "responseLikert": 4,
+  "responseBoolean": true,
+  "responseTime": 45,
+  "responseNumTasks": 3,
+  "responseArrayOfPredefinedIDs": [
+    {
+      "$oid": "679789e81c9bb1f0f80725fe"
+    },
+    {
+      "$oid": "679789e81c9bb1f0f8072606"
+    }
+  ]
+}]

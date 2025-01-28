@@ -1,0 +1,51 @@
+[
+  {
+    $lookup: {
+      from: "questions",
+      // Collection name to join
+      localField: "questionID",
+      // Field in project_user collection
+      foreignField: "_id",
+      // Field in project collection
+      as: "question" // Alias for the joined data
+    }
+  },
+  {
+    $lookup: {
+      from: "users",
+      // Collection name to join
+      localField: "userID",
+      // Field in project_user collection
+      foreignField: "_id",
+      // Field in project collection
+      as: "user" // Alias for the joined data
+    }
+  },
+  {
+    $lookup: {
+      from: "predefinedResponses",
+      // Collection name to join
+      localField: "responseArrayOfPredefinedIDs",
+      // Field in project_user collection
+      foreignField: "_id",
+      // Field in project collection
+      as: "predefinedResponse" // Alias for the joined data
+    }
+  },
+  {
+    $project: {
+      responseText: 1,
+      responseDate: 1,
+      responseLikert: 1,
+      responseBoolean: 1,
+      responseTime: 1,
+      responseNumTasks: 1,
+      "question.TypeQuestionnaire": 1,
+      "question.TextQuestion": 1,
+      "question.Options": 1,
+      "user.name": 1,
+      "user.role": 1,
+      "predefinedResponse.text": 1
+    }
+  }
+]

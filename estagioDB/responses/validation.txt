@@ -1,0 +1,70 @@
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    required: [
+      'responseDate',
+      'questionID',
+      'userID'
+    ],
+    properties: {
+      questionID: {
+        bsonType: 'objectId',
+        description: 'Reference to the Project\'s _id, required.'
+      },
+      userID: {
+        bsonType: 'objectId',
+        description: 'Reference to the User\'s _id, required.'
+      },
+      responseText: {
+        bsonType: [
+          'string',
+          'null'
+        ],
+        maxLength: 300,
+        description: 'Optional string with a max length of 300 characters.'
+      },
+      responseLikert: {
+        bsonType: [
+          'int',
+          'null'
+        ],
+        description: 'Optional integer representing a Likert scale.'
+      },
+      responseBoolean: {
+        bsonType: [
+          'bool',
+          'null'
+        ],
+        description: 'Optional boolean response.'
+      },
+      responseTime: {
+        bsonType: [
+          'int',
+          'null'
+        ],
+        description: 'Optional integer representing response time in seconds.'
+      },
+      responseNumTasks: {
+        bsonType: [
+          'int',
+          'null'
+        ],
+        description: 'Optional integer for the number of tasks.'
+      },
+      responseDate: {
+        bsonType: 'date',
+        description: 'The date and time the response was recorded, required.'
+      },
+      responseArrayOfPredefinedIDs: {
+        bsonType: [
+          'array',
+          'null'
+        ],
+        items: {
+          bsonType: 'objectId'
+        },
+        description: 'Optional array of MongoDB ObjectIDs.'
+      }
+    }
+  }
+}

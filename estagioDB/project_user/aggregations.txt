@@ -1,0 +1,32 @@
+[
+  {
+    $lookup: {
+      from: "project",
+      // Collection name to join
+      localField: "projectID",
+      // Field in project_user collection
+      foreignField: "_id",
+      // Field in project collection
+      as: "project" // Alias for the joined data
+    }
+  },
+  {
+    $lookup: {
+      from: "users",
+      // Collection name to join
+      localField: "userID",
+      // Field in project_user collection
+      foreignField: "_id",
+      // Field in users collection
+      as: "user" // Alias for the joined data
+    }
+  },
+  {
+    $project: {
+      "project.name": 1,
+      "project.description": 1,
+      "user.name": 1,
+      "user.role": 1
+    }
+  }
+]

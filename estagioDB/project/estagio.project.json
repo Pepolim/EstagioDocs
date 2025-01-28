@@ -1,0 +1,7 @@
+[{
+  "_id": {
+    "$oid": "679784451c9bb1f0f80725f0"
+  },
+  "name": "First Project",
+  "description": "This is a description of the first project."
+}]

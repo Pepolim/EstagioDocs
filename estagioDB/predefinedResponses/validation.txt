@@ -1,0 +1,26 @@
+{
+    $jsonSchema: {
+      bsonType: 'object',
+      required: [
+        'text',
+        'type'
+      ],
+      properties: {
+        text: {
+          bsonType: 'string',
+          maxLength: 50,
+          description: 'Must be a string with a maximum length of 50 characters and is required.'
+        },
+        type: {
+          bsonType: 'string',
+          'enum': [
+            'Behavioral Skill',
+            'Technical Skill',
+            'Difficulty Area',
+            'Reason for Communication'
+          ],
+          description: 'Must be one of the predefined types and is required.'
+        }
+      }
+    }
+  }

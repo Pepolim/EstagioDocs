@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "67978ade1c9bb1f0f807260f"
+  },
+  "name": "John Doe",
+  "role": "Admin",
+  "password": "securepassword123",
+  "email": "john.doe@example.com",
+  "birthDate": {
+    "$date": "1990-05-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67978ade1c9bb1f0f8072610"
+  },
+  "name": "Jane Smith",
+  "role": "Tutor",
+  "password": "mypassword",
+  "email": "jane.smith@example.com",
+  "birthDate": {
+    "$date": "1995-07-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67978b581c9bb1f0f8072614"
+  },
+  "name": "Tom Hanks",
+  "role": "Intern",
+  "password": "password123",
+  "email": "tom.hanks@example.com",
+  "birthDate": null
+}]

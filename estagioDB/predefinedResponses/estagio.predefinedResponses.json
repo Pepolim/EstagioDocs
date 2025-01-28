@@ -1,0 +1,140 @@
+[{
+  "_id": {
+    "$oid": "679789e81c9bb1f0f80725f5"
+  },
+  "text": "Comunicação",
+  "type": "Behavioral Skill"
+},
+{
+  "_id": {
+    "$oid": "679789e81c9bb1f0f80725f6"
+  },
+  "text": "Resolução de problemas",
+  "type": "Behavioral Skill"
+},
+{
+  "_id": {
+    "$oid": "679789e81c9bb1f0f80725f7"
+  },
+  "text": "Trabalho em equipa",
+  "type": "Behavioral Skill"
+},
+{
+  "_id": {
+    "$oid": "679789e81c9bb1f0f80725f8"
+  },
+  "text": "Adaptabilidade",
+  "type": "Behavioral Skill"
+},
+{
+  "_id": {
+    "$oid": "679789e81c9bb1f0f80725f9"
+  },
+  "text": "Gestão de tempo",
+  "type": "Behavioral Skill"
+},
+{
+  "_id": {
+    "$oid": "679789e81c9bb1f0f80725fa"
+  },
+  "text": "Tirar dúvidas",
+  "type": "Reason for Communication"
+},
+{
+  "_id": {
+    "$oid": "679789e81c9bb1f0f80725fb"
+  },
+  "text": "Reportar bug",
+  "type": "Reason for Communication"
+},
+{
+  "_id": {
+    "$oid": "679789e81c9bb1f0f80725fc"
+  },
+  "text": "Solicitar feedback",
+  "type": "Reason for Communication"
+},
+{
+  "_id": {
+    "$oid": "679789e81c9bb1f0f80725fd"
+  },
+  "text": "Ajudar equipa",
+  "type": "Reason for Communication"
+},
+{
+  "_id": {
+    "$oid": "679789e81c9bb1f0f80725fe"
+  },
+  "text": "Técnica",
+  "type": "Difficulty Area"
+},
+{
+  "_id": {
+    "$oid": "679789e81c9bb1f0f80725ff"
+  },
+  "text": "Comunicação",
+  "type": "Difficulty Area"
+},
+{
+  "_id": {
+    "$oid": "679789e81c9bb1f0f8072600"
+  },
+  "text": "Gestão de tempo",
+  "type": "Difficulty Area"
+},
+{
+  "_id": {
+    "$oid": "679789e81c9bb1f0f8072601"
+  },
+  "text": "C#",
+  "type": "Technical Skill"
+},
+{
+  "_id": {
+    "$oid": "679789e81c9bb1f0f8072602"
+  },
+  "text": "React",
+  "type": "Technical Skill"
+},
+{
+  "_id": {
+    "$oid": "679789e81c9bb1f0f8072603"
+  },
+  "text": "Git",
+  "type": "Technical Skill"
+},
+{
+  "_id": {
+    "$oid": "679789e81c9bb1f0f8072604"
+  },
+  "text": "Banco de dados",
+  "type": "Technical Skill"
+},
+{
+  "_id": {
+    "$oid": "679789e81c9bb1f0f8072605"
+  },
+  "text": "Python",
+  "type": "Technical Skill"
+},
+{
+  "_id": {
+    "$oid": "679789e81c9bb1f0f8072606"
+  },
+  "text": "Power BI",
+  "type": "Technical Skill"
+},
+{
+  "_id": {
+    "$oid": "679789e81c9bb1f0f8072607"
+  },
+  "text": "CSS",
+  "type": "Technical Skill"
+},
+{
+  "_id": {
+    "$oid": "679789e81c9bb1f0f8072608"
+  },
+  "text": "Javascript",
+  "type": "Technical Skill"
+}]

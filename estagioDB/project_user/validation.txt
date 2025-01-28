@@ -1,0 +1,19 @@
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    required: [
+      'projectID',
+      'userID'
+    ],
+    properties: {
+      projectID: {
+        bsonType: 'objectId',
+        description: 'Reference to the Project\'s _id, required.'
+      },
+      userID: {
+        bsonType: 'objectId',
+        description: 'Reference to the User\'s _id, required.'
+      }
+    }
+  }
+}
